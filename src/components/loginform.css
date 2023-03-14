@@ -1,0 +1,85 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'CustomFont', sans-serif;;
+
+}
+@font-face {
+    font-family: 'CustomFont';
+    src: url('https://yourwebsite.com/fonts/custom-font.woff2') format('woff2'),
+         url('https://yourwebsite.com/fonts/custom-font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+.page{
+    height:100vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.cover{
+    background-color: white;
+    width:25em;
+    height:25em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow:0 0.188em 1.550em rgb(100, 156, 156);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+input {
+    border: none;
+    background-color: rgb(229,226,226);
+    height:4em;
+    width:80%;
+    border-radius: 0.25em;
+    text-align:center;
+    padding:2em;
+}
+input:focus{
+    outline-color: rgb(32,177,225);
+}
+
+
+.login-btn {
+    width:30%;
+    height:2.5em;
+    background-color: rgb(32,177,225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    transform:scale(1.25);
+}
+.hide{
+    display:none;
+
+}
+.login-popup {
+    position: absolute;
+    height:20em;
+    width:25em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25em;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    transform: scale(1);
+    transform: 1.5s;
+
+}
+  
