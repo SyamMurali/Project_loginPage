@@ -6,8 +6,7 @@
 }
 @font-face {
     font-family: 'CustomFont';
-    src: url('https://yourwebsite.com/fonts/custom-font.woff2') format('woff2'),
-         url('https://yourwebsite.com/fonts/custom-font.woff') format('woff');
+    src: url('https://yourwebsite.com/fonts/custom-font.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
   }
